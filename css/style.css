@@ -1,0 +1,68 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TAVOLA COLORI UTILI 
+#add8e6
+#daa520
+#00008b
+#ee82ee
+#1e90ff
+#ffc0cb
+#d3d3d3
+#228b22
+#23272a
+#f08080
+#20b2aa
+*/
+
+/* Common */
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    /* debug */
+    border: 1px solid black;
+}
+
+.container-small{
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ee82ee;
+
+    /* debug */
+    min-height: 250px;
+}
+
+/* Layout */
+.header-top{
+    background-color: #add8e6;
+    padding: 10px;
+}
+
+.header-bottom{
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* debug */
+    min-height: 300px;
+    min-width: 500px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    background-color: #daa520;
+    padding: 5px;
+}
