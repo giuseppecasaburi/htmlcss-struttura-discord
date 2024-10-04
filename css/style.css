@@ -1,5 +1,5 @@
 /* Reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +20,7 @@
 */
 
 /* Common */
-.container{
+.container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
@@ -29,7 +29,7 @@
     border: 1px solid #000000;
 }
 
-.container-small{
+.container-small {
     width: 60%;
     max-width: 1200px;
     margin: 0 auto;
@@ -40,12 +40,12 @@
 }
 
 /* Layout */
-.header-top{
+.header-top {
     background-color: #add8e6;
     padding: 10px 0px;
 }
 
-.header-bottom{
+.header-bottom {
     background-color: #00008b;
     display: flex;
     justify-content: center;
@@ -57,17 +57,17 @@
     min-width: 500px;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: space-between;
 }
 
-.nav{
+.nav {
     background-color: #daa520;
     padding: 5px 0px;
 }
 
-.section-main{
+.section-main {
     padding: 30px 0px;
    
    
@@ -76,11 +76,11 @@
     min-height: 330px;
     border: 1px solid black;
 }
-.flex{
+.flex {
     display: flex;
 }
 
-.div-40{
+.div-40 {
     width: 40%;
     background-color: #ffc0cb;
 
@@ -89,32 +89,37 @@
 
 }
 
-.div-60{
+.div-60 {
     width: 60%;
     background-color: #1e90ff;
 }
 
-.colored{
+.reverse {
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.section-main:nth-child(even) {
     background-color: #d3d3d3;
 }
 
-.section-green{
+.section-green {
     background-color: #228b22;
     /* debug */
     min-width: 450px;
     min-height: 500px;
 }
 
-.footer-top{
+.footer-top {
     background-color: #23272a;
-    padding: 5px 0px 10px;
+    padding: 5px 0px 20px;
     
     /* debug */
     min-height: 300px;
     min-width: 400px;
 }
 
-.foot-large{
+.foot-large {
     background-color: #f08080;
 
     /* debug */
@@ -123,7 +128,7 @@
     border: 1px solid white;
 }
 
-.foot-small{
+.foot-small {
     background-color: #20b2aa;
        
     /* debug */
@@ -132,17 +137,18 @@
     border: 1px solid white;
 }
 
-.container-flex{
+.container-flex {
     display: flex;
     justify-content: center;
 }
 
-.footer-bottom{
+.footer-bottom {
     background-color: #23272a;
-    
+    border-top: 1px solid white;
+    padding-top: 10px;
 }
 
-.footer-color{
+.footer-color {
     background-color: #7fffd4;
     padding: 10px 0px;
 }
