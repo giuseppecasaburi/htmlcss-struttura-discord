@@ -36,13 +36,13 @@
     background-color: #ee82ee;
 
     /* debug */
-    min-height: 250px;
+    min-height: 350px;
 }
 
 /* Layout */
 .header-top{
     background-color: #add8e6;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .header-bottom{
@@ -53,7 +53,7 @@
 
 
     /* debug */
-    min-height: 300px;
+    min-height: 400px;
     min-width: 500px;
 }
 
@@ -64,5 +64,43 @@
 
 .nav{
     background-color: #daa520;
-    padding: 5px;
+    padding: 5px 0px;
+}
+
+.section-main{
+    padding: 30px 0px;
+   
+   
+    /* debug */
+    min-width: 500px;
+    min-height: 330px;
+    border: 1px solid black;
+}
+.flex{
+    display: flex;
+}
+
+.div-40{
+    width: 40%;
+    background-color: #ffc0cb;
+
+    /* debug */
+    min-height: 300px;
+
+}
+
+.div-60{
+    width: 60%;
+    background-color: #1e90ff;
+}
+
+.colored{
+    background-color: #d3d3d3;
+}
+
+.section-second{
+    background-color: #228b22;
+    /* debug */
+    min-width: 450px;
+    min-height: 500px;
 }
